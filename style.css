@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Salsa", cursive;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    background: #eae6f7;
+}
+
+.home{
+    padding: 0 6%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home h1{
+    margin-bottom: -40px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size: 9rem;
+    font-weight: 500;
+    color: #181818;
+}
+
+.home h2{
+    color: #8371bf;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 500;
+    margin-top: -1.5rem;
+}
+
+.home p{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    color: #181818;
+}
+
+.home .images .img-1,
+.home .images .img-2,
+.home .images .img-3,
+.home .images .img-4,
+.home .images .img-5,
+.home .images .img-6,
+.home .images .img-7,
+.home .images .img-8,
+.home .images .img-9,
+.home .images .img-10,
+.home .images .img-11{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.home .images .img-1{
+    background: url(./images/180.1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-2{
+    background: url(./images/180.2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-3{
+    background: url(./images/180.3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-4{
+    background: url(./images/180.4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-5{
+    background: url(./images/180.5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-6{
+    background: url(./images/180.6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-7{
+    background: url(./images/180.7.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-8{
+    background: url(./images/180.8.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-9{
+    background: url(./images/180.9.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-10{
+    background: url(./images/180.10.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.home .images .img-11{
+    background: url(./images/180.11.webp);
+    background-position: center;
+    background-size: cover;
+}
